@@ -21,7 +21,7 @@ class childApp(GridLayout):
         self.r_info = TextInput( )
         self.add_widget (self.r_info)
         
-        self.press = Button(text = 'Click me')
+        self.press = Button(text = 'Return Entry To Terminal')
         self.press.bind(on_press = self.click_me)
         self.add_widget(self.press)
         
